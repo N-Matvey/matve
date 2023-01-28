@@ -29,7 +29,7 @@ function calc() {
             result = num1 * num2
             alert(`${result}`)
         }
-        document.querySelector('#delit').onclick = function () {
+        document.querySelector('#delit').onclick = function (){
             let result;
 
             let num1 = Number(document.getElementById("num1").value);
